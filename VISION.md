@@ -9,9 +9,9 @@
 
 **To raise up healthy disciples who look like Christ and share Jesus with others.**
 
-We take our picture of a healthy disciple from the persecuted church: people
-whose faith costs them something, who know the Word, who obey it, and who
-can't help but tell others about Jesus.
+We take our picture of a healthy disciple's character from the persecuted
+church: faithful when it costs, humble, courageous, loving even toward those
+who oppose them, and joyful under pressure (Acts 5:41; Heb 10:32–34).
 
 ## 2. What a Healthy Disciple Looks Like
 
