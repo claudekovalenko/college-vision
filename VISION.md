@@ -26,16 +26,19 @@ A healthy disciple:
    *We don't prescribe the form — house church or church building — only that
    it is healthy, Christ-centered, and faithful to Scripture.*
 6. **Makes disciples** — passes on what they've received (2 Tim 2:2; Matt 28:19–20).
-7. **Stands firm when it costs** — endures hardship and pressure with joy (2 Tim 3:12; 1 Pet 4:12–14).
+7. **Stands firm when it costs** — holds to God's Word against worldly pressure and
+   influence, and endures hardship with joy (Rom 12:2; 2 Tim 3:12; 1 Pet 4:12–14).
 
 ## 3. Focus
 
 - **Lostness.** Most students at Cypress College have never been invited to read
   the Bible with someone. We exist for them.
-- **Leaders who multiply.** We raise up student leaders who reach their friends
-  and help them learn and obey God's Word.
-- **Simple, reproducible methods.** Anything we do should be something a new
-  believer can do with their friends next week.
+- **Multiplying disciples.** We want to see more and more disciples made. We
+  raise up student leaders who reach their friends, help them learn and obey
+  God's Word, and train them to do the same for others (2 Tim 2:2).
+- **Rooted and standing firm.** Students hear many voices about identity,
+  truth, and freedom. We help them test every idea against Scripture, stay
+  rooted in Christ, and find real freedom in Him (Col 2:6–8; John 8:31–32, 36).
 
 ## 4. Method: Discovery Bible Study (DBS)
 
