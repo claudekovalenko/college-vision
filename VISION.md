@@ -9,7 +9,7 @@
 
 **To raise up healthy disciples who look like Christ and share Jesus with others.**
 
-We take our picture of a healthy disciple's character from the persecuted
+Healthy disciples reflect the character and pursuit of the persecuted
 church: faithful when it costs, humble, courageous, loving even toward those
 who oppose them, and joyful under pressure (Acts 5:41; Heb 10:32–34).
 
