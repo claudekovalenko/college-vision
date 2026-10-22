@@ -40,9 +40,12 @@ A healthy disciple:
   truth, and freedom. We help them test every idea against Scripture, stay
   rooted in Christ, and find real freedom in Him (Col 2:6–8; John 8:31–32, 36).
 
-## 4. Method: Discovery Bible Study (DBS)
+## 4. Starting Point: Discovery Bible Study (DBS)
 
-Our primary tool is a simple, reproducible Discovery Bible Study:
+Discovery Bible Study is the foundation we start with. It gets anyone reading
+and obeying God's Word right away, and it's a starting place, not a ceiling:
+as disciples mature, we help them go deeper into the whole counsel of God
+(Acts 20:27; Heb 5:12–14).
 
 1. **Look back** — What are you thankful for? What's been hard? How did you
    obey and share last week?
