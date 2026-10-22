@@ -44,20 +44,23 @@
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--line);
   }
-  nav .wrap { display: flex; gap: 18px; align-items: center; height: 56px; overflow-x: auto; white-space: nowrap; }
-  nav strong { font-family: Fraunces, Georgia, serif; font-size: 18px; margin-right: auto; }
+  nav .wrap { display: flex; gap: 16px; align-items: center; height: 56px; }
+  nav strong { font-family: Fraunces, Georgia, serif; font-size: 18px; margin-right: auto; white-space: nowrap; }
+  nav a { white-space: nowrap; }
+  @media (max-width: 420px) { nav strong { font-size: 16px; } nav .wrap { gap: 12px; } nav a { font-size: 14px; } }
   nav a { color: var(--muted); text-decoration: none; font-size: 15px; font-weight: 500; }
   nav a:hover { color: var(--accent); }
-  header { padding: 80px 0 64px; }
+  header { padding: 56px 0 48px; }
   .eyebrow { color: var(--accent); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: 13px; }
   h1, h2, h3 { font-family: Fraunces, Georgia, serif; line-height: 1.2; }
   h1 { font-size: clamp(34px, 7vw, 54px); margin: 12px 0 20px; }
   h2 { font-size: 30px; margin: 0 0 16px; }
   h3 { font-size: 20px; margin: 0 0 4px; }
   .lead { font-size: 19px; color: var(--muted); max-width: 600px; }
-  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  section { padding: 44px 0; border-top: 1px solid var(--line); }
   .marks { list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 14px; }
-  .marks li {
+    .marks li {
+    align-items: center;
     background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
     padding: 18px 20px; display: grid; grid-template-columns: 36px 1fr; gap: 14px;
   }
@@ -67,6 +70,7 @@
     display: grid; place-items: center; font-weight: 600;
   }
   .marks p { margin: 0; color: var(--muted); }
+  .marks li > div { min-width: 0; }
   .ref { font-size: 14px; color: var(--accent); }
   .focus { display: grid; gap: 14px; margin-top: 20px; }
   .focus div { border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; }
@@ -75,6 +79,7 @@
   .step { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
   .step ul { margin: 8px 0 0; padding-left: 20px; color: var(--muted); }
   .step .tag { color: var(--accent); font-weight: 600; font-size: 14px; }
+  .step p { margin: 6px 0 0; color: var(--muted); }
   footer { padding: 40px 0 60px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
 </style>
 </head>
@@ -84,49 +89,46 @@
     <strong>Cypress Disciples</strong>
     <a href="#disciple">Disciples</a>
     <a href="#focus">Focus</a>
-    <a href="#dbs">Where We Start</a>
+    <a href="#start">Start</a>
   </div>
 </nav>
 
 <main class="wrap">
   <header>
     <div class="eyebrow">Cypress College</div>
-    <h1>Raising up healthy disciples who look like Christ and share Jesus with others.</h1>
-    <p class="lead">We take our picture of a healthy disciple from the persecuted church: people whose faith costs them something, who know the Word, who obey it, and who can't help but tell others about Jesus.</p>
+    <h1>Healthy disciples who look like Christ and share Jesus.</h1>
+    <p class="lead">Modeled after the persecuted church: people who know the Word, obey it, and tell others about Jesus.</p>
   </header>
 
   <section id="disciple">
-    <h2>What a healthy disciple looks like</h2>
+    <h2>A healthy disciple…</h2>
     <ol class="marks">
-      <li><span class="num">1</span><div><h3>Looks like Christ</h3><p>Growing in character, holiness, and love.</p><span class="ref">Romans 8:29 · Galatians 5:22–23</span></div></li>
-      <li><span class="num">2</span><div><h3>Abides in the Word</h3><p>Reads, obeys, and shares Scripture.</p><span class="ref">John 8:31–32 · James 1:22</span></div></li>
-      <li><span class="num">3</span><div><h3>Prays</h3><p>Depends on God, not on programs.</p><span class="ref">Luke 18:1 · 1 Thessalonians 5:17</span></div></li>
-      <li><span class="num">4</span><div><h3>Shares Jesus</h3><p>Carries a burden for the lost on campus and beyond.</p><span class="ref">Romans 10:14 · Luke 19:10</span></div></li>
-      <li><span class="num">5</span><div><h3>Lives in healthy community</h3><p>Plugged into a local body of believers for accountability, worship, and care.</p><span class="ref">Hebrews 10:24–25 · Acts 2:42–47</span></div></li>
-      <li><span class="num">6</span><div><h3>Makes disciples</h3><p>Passes on what they've received to others.</p><span class="ref">2 Timothy 2:2 · Matthew 28:19–20</span></div></li>
-      <li><span class="num">7</span><div><h3>Stands firm when it costs</h3><p>Holds to God's Word against worldly pressure and influence, and endures hardship with joy.</p><span class="ref">Romans 12:2 · 2 Timothy 3:12 · 1 Peter 4:12–14</span></div></li>
+      <li><span class="num">1</span><div><h3>Looks like Christ</h3><span class="ref">Romans 8:29</span></div></li>
+      <li><span class="num">2</span><div><h3>Abides in the Word</h3><span class="ref">John 8:31–32</span></div></li>
+      <li><span class="num">3</span><div><h3>Prays</h3><span class="ref">1 Thessalonians 5:17</span></div></li>
+      <li><span class="num">4</span><div><h3>Shares Jesus</h3><span class="ref">Romans 10:14</span></div></li>
+      <li><span class="num">5</span><div><h3>Lives in healthy community</h3><span class="ref">Hebrews 10:24–25</span></div></li>
+      <li><span class="num">6</span><div><h3>Makes disciples</h3><span class="ref">2 Timothy 2:2</span></div></li>
+      <li><span class="num">7</span><div><h3>Stands firm</h3><span class="ref">Romans 12:2</span></div></li>
     </ol>
   </section>
 
   <section id="focus">
     <h2>Our focus</h2>
     <div class="focus">
-      <div><h3>Lostness</h3><p>Most students at Cypress College have never been invited to read the Bible with someone. We exist for them.</p></div>
-      <div><h3>Multiplying disciples</h3><p>We want to see more and more disciples made. We raise up student leaders who reach their friends, help them learn and obey God's Word, and train them to do the same for others.</p></div>
-      <div><h3>Rooted and standing firm</h3><p>Students hear many voices about identity, truth, and freedom. We help them test every idea against Scripture, stay rooted in Christ, and find real freedom in Him.</p><span class="ref">Colossians 2:6–8 · John 8:31–32, 36</span></div>
+      <div><h3>Reach the lost</h3><p>Every student deserves to hear about Jesus.</p></div>
+      <div><h3>Multiply disciples</h3><p>Disciples who make disciples.</p></div>
+      <div><h3>Stand firm</h3><p>Rooted in Christ, free in Him.</p><span class="ref">Colossians 2:6–8</span></div>
     </div>
   </section>
 
-  <section id="dbs">
-    <h2>Discovery Bible Study</h2>
-    <p class="lead">Where we start: a way for anyone to begin reading and obeying the Bible with friends. As disciples grow, we help them go deeper into the whole counsel of God.</p>
+  <section id="start">
+    <h2>Where we start</h2>
+    <p class="lead">Discovery Bible Study, a first step. From there, we go deeper.</p>
     <div class="steps">
-      <div class="step"><span class="tag">1 · Look back</span>
-        <ul><li>What are you thankful for?</li><li>What's been hard this week?</li><li>How did you obey and share last week?</li></ul></div>
-      <div class="step"><span class="tag">2 · Look up</span>
-        <ul><li>Read the passage aloud, then retell it in your own words.</li><li>What does this teach us about God?</li><li>What does this teach us about people?</li></ul></div>
-      <div class="step"><span class="tag">3 · Look forward</span>
-        <ul><li>How will I obey this?</li><li>Who will I share it with this week?</li></ul></div>
+      <div class="step"><span class="tag">1 · Look back</span><p>What are you thankful for? How did you obey and share?</p></div>
+      <div class="step"><span class="tag">2 · Look up</span><p>Read it. Retell it. What does it say about God and people?</p></div>
+      <div class="step"><span class="tag">3 · Look forward</span><p>How will I obey? Who will I tell?</p></div>
     </div>
   </section>
 </main>
